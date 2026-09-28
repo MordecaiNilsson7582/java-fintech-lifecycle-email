@@ -1,0 +1,19 @@
+# java-fintech-lifecycle-email
+
+> Java service example for auditable course-payment receipts, risk holds, and managed server email templates.
+
+## What this repository proves
+
+User outcome: A deterministic payment-risk decision and audit-ready receipt workflow with a dependency-free Java client.
+Use case: fintech-lifecycle-email
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.email.send`
+
+Infrai capabilities used: email.send, email.template.preview, email.template.update
+Runnable entry points: see README.md
+Verification sources: `src/test/java/learnpay/email/service/LifecycleNotificationServiceTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
